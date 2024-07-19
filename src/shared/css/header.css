@@ -1,0 +1,31 @@
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Poppins";
+  padding: 20px 0;
+  margin-bottom: 30px;
+}
+
+.main-header__title {
+  color: #4299e1;
+  font-size: 36px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.add-transaction {
+  background-color: #63b3ed;
+  color: #000;
+  font-size: 16px;
+  font-weight: normal;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+}
+
+
+.add-transaction:hover {
+    background-color: lightgray;
+}
